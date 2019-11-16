@@ -315,7 +315,7 @@ EPSILON_DECAY = 1e-6    # decay rate (learn step), default 1e-6, 0 for no decay
 
 ## 8. Conclusion
 
-The Time Delayed DDPG model was clearly superior in that it remained stable and was able to be trained much more that the DDPG model. When oberving the behaviour of the models (see movies in the readme.md) the TD3 model uses very little movement to get the ball going back and forth - it has obviously figured out an optimal approach. The longer time to reach the target is indicative of its approach to avoid overestimation, but is not a problem per se.  
+The Twin Delayed DDPG model was clearly superior in that it remained stable and was able to be trained much more that the DDPG model. When oberving the behaviour of the models (see movies in the readme.md) the TD3 model uses very little movement to get the ball going back and forth - it has obviously figured out an optimal approach. The longer time to reach the target is indicative of its approach to avoid overestimation, but is not a problem per se.  
   
 ##### &nbsp;
 ---- 

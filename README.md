@@ -5,12 +5,13 @@
 
 ### Introduction
 
-*The movie below is from a Deep Deterministic Policy Gradient (DDPG) Agent I have trained...*
+*__The movie below is from a Deep Deterministic Policy Gradient (DDPG) Agent I have trained...__*
 <div>    
 <img src="images/session_recording.gif" width="70%" align="top-left" alt="" title="DDPG Agent" />
 </div>
 
-*This movie is from a Time Delayed DDPG Agent I have trained...**
+##### &nbsp;
+*__This movie is from a Twin Delayed DDPG Agent I have trained...__**
 <div>    
 <img src="images/td3_session_recording.gif" width="70%" align="top-left" alt="" title="TD3 Agent" />
 </div>
