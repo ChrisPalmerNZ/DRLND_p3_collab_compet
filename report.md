@@ -269,8 +269,6 @@ The [Model code](td_ddpg_model.py) is located in `td_ddpg_model.py`
     - Batch normalization was not required (and in fact hindered)
     - Time Delay on Policy update (Policy updates only every second episode)
     - Architecture was based on the code avaliable in the Udemy [Deep Reinforcement Learning 2.0](https://www.udemy.com/course/deep-reinforcement-learning) course, which I took in order to understand this model. 
-
-UdemyUdemy) 
      
 ----
 
@@ -288,7 +286,7 @@ UdemyUdemy)
         - The buffer contains experiences tuples of state, action, reward, next state and done
         - Repeated passes through the buffer allows the Agent to learn from experiences
 - Hyperparameters are defined in ddpg_agent (or td_ddpg_agent for TD3)
-    - Sensitive to `buffer_size` (larger was required), `batch_size`, tau` and `ou_sigma` especially - these required different settings compared to `Reacher`
+    - Sensitive to `buffer_size` (larger was required), `batch_size`, `tau` and `ou_sigma` especially - these required different settings compared to `Reacher`
     - Otherwsise, the defaults were mostly the best settings
 - In the notebook, we set SEED which is utilized throughout whenever a random seed needs initializing, the model was sensitive to the seed value
 
