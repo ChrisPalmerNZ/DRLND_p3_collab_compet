@@ -49,7 +49,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ## Instructions
 
-The Jupyter Notebook `Tennis.ipynb` must be followed to reproduce the training performed. For the Deep Deterministic Policy Gradient (DDPG) model it calls Agent and Model code in the files `ddpg_agent.py` and `model.py`. For the Time Delayed DDPG model it calls equivalent Agent and Model code in `td_ddpg_agent.py` and `td_ddpg_model.py`. These must also be located in the working directory.
+The Jupyter Notebook `Tennis.ipynb` must be followed to reproduce the training performed. For the Deep Deterministic Policy Gradient (DDPG) model it calls Agent and Model code in the files `ddpg_agent.py` and `model.py`. For the Twin Delayed DDPG model it calls equivalent Agent and Model code in `td_ddpg_agent.py` and `td_ddpg_model.py`. These must also be located in the working directory.
 
 One thing that needs changing is the `tennisenv` definition early in the notebook - it must contain the path to wherever you have extracted the Reacher environment, as described in the _Getting Started_ section above. 
 
